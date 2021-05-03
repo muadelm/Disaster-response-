@@ -1,7 +1,7 @@
-#Data Science Nanodegree
-#Udacity
+# Data Science Nanodegree
+# Udacity
 
-#Disaster Response NLP
+# Disaster Response NLP
 
 The project aims at constructing:
 * ETL pipeline **[process_data.py]** to extract messages recieved during a disaster then cleaning and wrangling the data in a meaningful formate.
