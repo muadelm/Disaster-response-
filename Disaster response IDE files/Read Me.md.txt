@@ -1,4 +1,0 @@
-Data Science Nanodegree
-Udacity
-
-Disaster Response NLP
