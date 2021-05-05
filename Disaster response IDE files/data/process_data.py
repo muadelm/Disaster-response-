@@ -4,6 +4,12 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 def load_data(messages_filepath, categories_filepath):
+    """
+    The input is the path of the messages and the categories files
+    
+    Returns a dataframe
+    """
+    
     messages = pd.read_csv(messages_filepath)
     categories = pd.read_csv(categories_filepath)
     df = pd.merge(messages, categories, on="id")
@@ -11,6 +17,13 @@ def load_data(messages_filepath, categories_filepath):
 
 
 def clean_data(df):
+    """
+    The function aims at creating a cleanining the dataframe 
+    Adjust the headers
+    make the category data in integer form
+    remove dublicated data
+    """
+    
     categories = df.categories.str.split(pat=';', expand=True)
     row = categories.iloc[0,:]
     category_colnames = row.apply (lambda x: x.rstrip ('- 1 0'))
