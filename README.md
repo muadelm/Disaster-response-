@@ -1,4 +1,4 @@
-# Disaster-response-
+# Disaster-response-Overview
 The project will aim at classifying people messages in time of a disaster to classify the importance and the relevance of the messages to disaster response organizations. 
 The project will involve 
 * creating ETL pipeline to process messages from CSVs. 
