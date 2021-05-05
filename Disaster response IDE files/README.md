@@ -15,3 +15,5 @@ The project was run as follows after opening the terminal:
 * python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
 * python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
 * python app/run.py
+
+After running the files go to **https://view6914b2f4-3001.udacity-student-workspaces.com/** to view the dashboard.
