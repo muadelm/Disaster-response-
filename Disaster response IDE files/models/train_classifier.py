@@ -93,7 +93,9 @@ def evaluate_model(model, X_test, Y_test, category_names):
         print(metrics_class(column, y_test, y_pred))target_names=category_names))
     """
     Y_pred = model.predict(X_test)
-    print(classification_report(Y_test.iloc[:,1:].values, np.array([x[1:] for x in Y_pred]), target_names=category_names))
+    # print(classification_report(Y_test.iloc[:,1:].values, np.array([x[1:] for x in Y_pred]), target_names=category_names))
+    report = classification_report(Y_test,Y_pred,target_names = category_names)
+    return report
 
 def save_model(model, model_filepath):
     #pickle.dumps(model_filepath)
