@@ -10,6 +10,10 @@ The project aims at constructing:
 * Optimize the model using GridSearsh and save the optimized model to **[classifier.pkl]**.
 * A **web app** will produce visualizations and will allow classifying new input messages.
 
+### Motivation
+
+when disasters happen, people report enourmous amounts of messages and tweets on the event. Disaster response organizations can not handle all these messages to know which ones are related to the event and should be treated seriously. the purpose of the work is to present a tool to classify messages to allow disaster response organizations to take the propoer decisions.
+
 
 ### File discribtion 
 
@@ -36,3 +40,6 @@ The project was run as follows after opening the terminal:
 * python app/run.py
 
 After running the files go to **https://view6914b2f4-3001.udacity-student-workspaces.com/** to view the dashboard.
+
+### acknowledgement
+I would like to thank Udacity Data Science team for the instruction and the porject.
